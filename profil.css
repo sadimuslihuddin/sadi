@@ -1,0 +1,113 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: white;
+}
+ul{
+    padding: 0;
+}
+li{
+    margin: 0;
+    list-style: none;
+}
+.sidebar{
+    padding: 0px 35px;
+    background-color: #1d4f94 !important;
+    font-weight: 500;
+}
+
+.sidebar .sidebar-brand{
+    margin-top: -10px;
+}
+.sidebar .avatar{
+    margin: 0 0 5px;
+}
+.sidebar .avatar .avatar-picture{
+    /* background: linear-gradient(180deg, #FFC897 15.1%, #FFBF03 100%, #FFD458 100%);  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0px auto 15px;
+}
+.sidebar .avatar .avatar-data p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.sidebar .avatar .avatar-data .email{
+    font-size: 12px;
+}
+.sidebar .nav-item{
+    font-size: 16px;
+    margin : 3px 0px;
+}
+.sidebar .nav-item span{
+    margin-left: 15px;
+}
+
+.sidebar .nav-item .nav-link, .sidebar .nav-item .nav-link i{
+    color: rgba(32, 32, 32, 0.5); 
+}
+
+.content{
+    background: rgba(60, 117, 160, 0.08);
+    width: 100%;
+}
+.nav .nav-item{
+    padding: 0px !important;
+}
+
+.content .nav .nav-item .date{
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content .nav .nav-item .nav-link i{
+    font-size: 24px;
+    color: black;
+}
+.content .nav .nav-item .btn{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500 ;
+    background-color: #2F80ED;
+}
+
+.main-content{
+    border-radius: 25px;
+    font-weight: 500;
+    width: 85%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.main-content .edit{
+    text-decoration: none;
+}
+
+.main-content .edit:hover{
+    color: #37d87b;
+}
+
+.content .main-content .profile p{
+    color: black;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content .main-content .profile .avatar-data p{
+    font-size: 20px;
+}
+
+.content .main-content .profile .avatar-data .email{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.content .main-content .profile .data .label{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
